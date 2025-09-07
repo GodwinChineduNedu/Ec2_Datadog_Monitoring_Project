@@ -144,7 +144,7 @@ rm /tmp/hugefile
 
 **Undo stress tool:** `sudo apt remove --purge -y stress` when done.
 
-![Screenshot 2025-08-28 134311.png](attachment:a1021a58-ca2a-427f-980d-a33258028139:Screenshot_2025-08-28_134311.png)
+![image alt](https://github.com/GodwinChineduNedu/Ec2_Datadog_Monitoring_Project/blob/8174291144f333621b84ef864e74fdd475e0c418/Screenshot_2025-08-28_134311.png)
 
 ![Screenshot 2025-08-28 133744.png](attachment:60b63b98-5057-4ab6-a239-2475a3c3fc3d:Screenshot_2025-08-28_133744.png)
 
@@ -275,6 +275,7 @@ sudo systemctl start datadog-agent
 - Generate CPU load (see Stage 5) to test CPU monitor.
 
 - Force the patch script to fail (`exit 1`) and run it to ensure the Patch FAILED event triggers the event monitor.
+
 
 
 
