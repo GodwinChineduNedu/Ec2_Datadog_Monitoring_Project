@@ -146,7 +146,7 @@ rm /tmp/hugefile
 
 ![image alt](https://github.com/GodwinChineduNedu/Ec2_Datadog_Monitoring_Project/blob/8174291144f333621b84ef864e74fdd475e0c418/Screenshot_2025-08-28_134311.png)
 
-![Screenshot 2025-08-28 133744.png](attachment:60b63b98-5057-4ab6-a239-2475a3c3fc3d:Screenshot_2025-08-28_133744.png)
+![image alt](https://github.com/GodwinChineduNedu/Ec2_Datadog_Monitoring_Project/blob/3cb317b8725dbdb3dcb73ca9f9c6eff90c082515/Screenshot_2025-08-28_133744.png)
 
 ---
 
@@ -275,6 +275,7 @@ sudo systemctl start datadog-agent
 - Generate CPU load (see Stage 5) to test CPU monitor.
 
 - Force the patch script to fail (`exit 1`) and run it to ensure the Patch FAILED event triggers the event monitor.
+
 
 
 
