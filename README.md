@@ -50,7 +50,7 @@ Before you begin, make sure you have:
 7. Launch the instance and give it a Name tag: `Testrun-Server1`.
 8. Repeat steps to launch a second instance and name it `Testrun-Server2`.
 
-![Screenshot 2025-08-27 142345.png](attachment:49672986-8d54-4474-b515-57ad2c49b448:Screenshot_2025-08-27_142345.png)
+![image alt](https://github.com/GodwinChineduNedu/Ec2_Datadog_Monitoring_Project/blob/1ae934c88c15beeb1bc52508b0eadb58b370a783/Screenshot_2025-08-27_142345.png)
 
 ---
 
@@ -275,3 +275,4 @@ sudo systemctl start datadog-agent
 - Generate CPU load (see Stage 5) to test CPU monitor.
 
 - Force the patch script to fail (`exit 1`) and run it to ensure the Patch FAILED event triggers the event monitor.
+
