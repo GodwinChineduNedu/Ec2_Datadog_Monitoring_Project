@@ -112,7 +112,7 @@ hostname -f
 
 ```
 
-![Screenshot 2025-08-27 153715.png](attachment:82b83420-9390-4d4d-8d49-eb1f5df67157:Screenshot_2025-08-27_153715.png)
+![image alt](https://github.com/GodwinChineduNedu/Ec2_Datadog_Monitoring_Project/blob/9311e42621d6982456b63e92ec5b9fed55abad79/Screenshot_2025-08-27_153715.png)
 
 ---
 
@@ -275,6 +275,7 @@ sudo systemctl start datadog-agent
 - Generate CPU load (see Stage 5) to test CPU monitor.
 
 - Force the patch script to fail (`exit 1`) and run it to ensure the Patch FAILED event triggers the event monitor.
+
 
 
 
