@@ -63,7 +63,7 @@ Before you begin, make sure you have:
 3. In **Advanced SSH settings** → tick **Use private key** → browse to your `my-key.pem` file.
 4. Save session and connect. Repeat for the second host and save as `Testrun-Server2`.
 
-![Screenshot 2025-07-30 125215.png](attachment:82967b9c-7961-4ca1-990e-a0d2e832cc9b:Screenshot_2025-07-30_125215.png)
+![image alt](https://github.com/GodwinChineduNedu/Ec2_Datadog_Monitoring_Project/blob/513311f93b71cd7822ac1d37135aab828f586581/Screenshot%202025-07-30%20125215.png)
 
 ---
 
@@ -275,4 +275,5 @@ sudo systemctl start datadog-agent
 - Generate CPU load (see Stage 5) to test CPU monitor.
 
 - Force the patch script to fail (`exit 1`) and run it to ensure the Patch FAILED event triggers the event monitor.
+
 
