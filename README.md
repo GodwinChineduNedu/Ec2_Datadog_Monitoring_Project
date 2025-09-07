@@ -213,7 +213,7 @@ If you do not yet have a Datadog account:
 
 **Verify:** Datadog → Infrastructure → Hosts → find `Testrun-Server1` and `Testrun-Server2`.
 
-![Screenshot 2025-08-27 175030.png](attachment:bfbc0e2e-55b9-4e5c-8b4f-17e381151d6a:Screenshot_2025-08-27_175030.png)
+![image alt](https://github.com/GodwinChineduNedu/Ec2_Datadog_Monitoring_Project/blob/43eb0e3e47fdb3e3b27fd518621dec5f2fb0e432/Screenshot_2025-08-27_175030.png)
 
 ![Screenshot 2025-08-27 175159.png](attachment:fa3c8a6a-d083-4335-bb06-8d128ff6fc64:Screenshot_2025-08-27_175159.png)
 
@@ -275,6 +275,7 @@ sudo systemctl start datadog-agent
 - Generate CPU load (see Stage 5) to test CPU monitor.
 
 - Force the patch script to fail (`exit 1`) and run it to ensure the Patch FAILED event triggers the event monitor.
+
 
 
 
