@@ -90,7 +90,7 @@ sudo reboot
 
 ```
 
-![Screenshot 2025-07-30 131338.png](attachment:aca8b214-672e-4346-84b1-22d17dbc2e6b:Screenshot_2025-07-30_131338.png)
+![image alt](https://github.com/GodwinChineduNedu/Ec2_Datadog_Monitoring_Project/blob/e811b848cc45da8034614a52d0fc5b29fa0173b5/Screenshot%202025-07-30%20131338.png)
 
 ![Screenshot 2025-07-30 130820.png](attachment:4df91fce-ef24-4929-90b9-b625762e753c:Screenshot_2025-07-30_130820.png)
 
@@ -275,5 +275,6 @@ sudo systemctl start datadog-agent
 - Generate CPU load (see Stage 5) to test CPU monitor.
 
 - Force the patch script to fail (`exit 1`) and run it to ensure the Patch FAILED event triggers the event monitor.
+
 
 
